@@ -44,6 +44,7 @@ public class RepresentingTableData {
         rowMapLst.get(0).put("first_name", "Jane");
         System.out.println("rowMapLst = " + rowMapLst); // --> rowMapLst = [{gender=Female, first_name=Jane, email=rboichat0@1688.com}, {gender=Male, first_name=Carleen, email=cmorillas1@blog.com}]
 
+        // HOMEWORK : FILL UP THIS LIST OF MAP USING FILE DATA
 
 
     }
