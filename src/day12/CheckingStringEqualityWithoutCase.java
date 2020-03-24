@@ -13,11 +13,11 @@ public class CheckingStringEqualityWithoutCase {
 
         boolean userNameCorrect = userName.equals("Fariza") ;
 
-        System.out.println( userNameCorrect );
+        System.out.println( userNameCorrect ); // false
 
         boolean userNameCorrect2 = userName.equalsIgnoreCase( "FARIZA");
 
-        System.out.println( userNameCorrect2 );
+        System.out.println( userNameCorrect2 ); //true
 
 
 
@@ -25,9 +25,9 @@ public class CheckingStringEqualityWithoutCase {
         String name = "Said" ;
         boolean nameEqualWithoutCase = name.equalsIgnoreCase("said");
         System.out.println("Does this name has same character without caring about the case");
-        System.out.println(nameEqualWithoutCase);
+        System.out.println(nameEqualWithoutCase); //true
 
-        System.out.println( name.equalsIgnoreCase("sAId"));
+        System.out.println( name.equalsIgnoreCase("sAId")); //true
 
 
 
