@@ -11,13 +11,13 @@ public class TrimAndIsEmpty {
         // trim method is used to take out spaces on two sides
         // not in between!!!!!
         message = message.trim();
-        System.out.println(message);
+        System.out.println(message); //REPL IS COMING !
 
         //System.out.println(    message.trim()   );
 
         System.out.println("message character count is " + message.length());
 
-        System.out.println(message.isEmpty());
+        System.out.println(message.isEmpty()); // false
 
 
     }

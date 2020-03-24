@@ -18,10 +18,9 @@ public class StringReview {
         // prints the last one
         System.out.println("gotPumpkin = " + gotPumpkin);
 
-        // startsWith  endsWith
-        // check whether a string start with another string
-        // check whether a string end with another string
-        // and return true or false result
+        // startsWith  - check whether a string start with another string
+        // endsWith - check whether a string end with another string
+        //boolean and return true or false result
 
 
         boolean startedWithI = str.startsWith("I");

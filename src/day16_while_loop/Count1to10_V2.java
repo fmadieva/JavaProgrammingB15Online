@@ -24,34 +24,12 @@ public class Count1to10_V2 {
         while ( counter++ <10 ){
             System.out.println(counter);
 
-
-
-
-
-
-
-
         }
 
 // initial value of counter is 0
         // first it evaluates the condition.
 
-
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
-
 
     }
 

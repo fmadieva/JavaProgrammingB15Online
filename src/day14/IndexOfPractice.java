@@ -12,7 +12,7 @@ public class IndexOfPractice {
         //find out the location of letter O
         // find out the location of first space
 
-        System.out.println("find out hte location of Java");
+        System.out.println("find out the location of Java");
         System.out.println( name.indexOf("Java")   ); // 8
 
         System.out.println("find out the location of o");

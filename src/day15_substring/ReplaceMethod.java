@@ -22,6 +22,8 @@ public class ReplaceMethod {
 
         String message3 = "Tomorrow is off no!";
         // how to remove no
+        message3 = message3.replace("no", "");
+        System.out.println("message3 = " + message3);
 
         
         

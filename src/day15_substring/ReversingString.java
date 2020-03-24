@@ -5,14 +5,17 @@ public class ReversingString {
     public static void main (String[] args){
 
         String name = "Fariza";
+        System.out.println("name.length() = " + name.length()); //  6
+
+        // starts from 0
 
         System.out.println( name.charAt(0)+ " " +name.charAt(1)+ " " + name.charAt(2)+ " "
-                +name.charAt(3)+ " " + name.charAt(4)+ " " +name.charAt(5)  );
+                +name.charAt(3)+ " " + name.charAt(4)+ " " +name.charAt(5)  ); // F a r i z a
 
         System.out.println("------------");
 
         System.out.println( name.charAt(5)+ " " +name.charAt(4)+ " " + name.charAt(3)+ " "
-                +name.charAt(2)+ " " + name.charAt(1)+ " " +name.charAt(0)  );
+                +name.charAt(2)+ " " + name.charAt(1)+ " " +name.charAt(0)  ); // a z i r a F
 
         System.out.println("------------");
 
