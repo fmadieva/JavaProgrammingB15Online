@@ -4,6 +4,9 @@ public class Wake_Up_Task1 {
 
     public static void main(String[] args){
 
+        // stopped here
+
+
         //Given a word with 4 characters stored in a String variable
         //create a String variable word2
         //Store the reversed word1 into word 2 and print out

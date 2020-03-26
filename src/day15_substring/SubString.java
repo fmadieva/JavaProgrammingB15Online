@@ -26,6 +26,7 @@ public class SubString {
         //String movie = "Lord of the Ring";
         int startingPoint = movie.indexOf(" ")+ 1;
         int endingPoint = movie.length();
+        System.out.println(endingPoint);
 
         System.out.println("second word till last: " + movie.substring(startingPoint, endingPoint));
 
