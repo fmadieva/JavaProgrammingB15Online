@@ -34,6 +34,8 @@ public class VariableIntro {
         System.out.println( classmate );
 
 
+        int age = 26;
+        System.out.println(age);
 
 
 

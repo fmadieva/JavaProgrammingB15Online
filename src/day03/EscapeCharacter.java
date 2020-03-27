@@ -12,7 +12,7 @@ public class EscapeCharacter {
 
         System.out.println(  "Hello\tWorld" );
 
-        System.out.println( "Hello\tWorld"  );
+        System.out.println( "Hello World"  );
 
         System.out.println( "Hello \n B15 ");
 
