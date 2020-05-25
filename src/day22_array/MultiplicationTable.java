@@ -40,6 +40,7 @@ public class MultiplicationTable {
             // I want to know which number I want to get the multiplication table
             System.out.println("Multiplication table of " + timesTable);
             //this loop will generate multiplication table for one number
+
             for (int base = 1; base <=12 ; base++) {
             System.out.println(timesTable+ " x " +base+ " = " + timesTable * base);
 

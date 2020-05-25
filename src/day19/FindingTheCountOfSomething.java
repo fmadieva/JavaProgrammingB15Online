@@ -8,7 +8,7 @@ public class FindingTheCountOfSomething {
 
         //condition int%15==0
 
-        /*int counter = 0;
+        int counter = 0;
         for (int i=1;i<=100;i++) {
             if (i%15==0) {
                 System.out.print(i+" ");
@@ -17,7 +17,7 @@ public class FindingTheCountOfSomething {
 
         }
         System.out.println("counter = " + counter);
-        */
+
 
         // Given a String with value, find out how many a showed up in this String
 
@@ -27,16 +27,16 @@ public class FindingTheCountOfSomething {
 
         int countOfA = 0;
 
-        for (int x = 0; x <name.length() ; x++) {
+        for (int x = 0; x <name.length() ; x++) { // startin from the beginning, till the last letter of the name,
+// moving up each time...
+            System.out.println(name.charAt( x )); // print every character you go through
 
-            System.out.println(name.charAt( x ));
-
-            if ( name.charAt(x) == 'a' ){
-                System.out.println("Bingo!");
-                ++countOfA;
+            if ( name.charAt(x) == 'a' ){  // if the character is equal to 'a'
+                System.out.println("Bingo!"); //then print bingo
+                ++countOfA; // every time you get a, keep it in this basket
             }
         }
-        System.out.println("count of A " + countOfA);
+        System.out.println("count of A " + countOfA); // print out how many a in the name
 
 
 

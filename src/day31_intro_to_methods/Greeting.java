@@ -10,6 +10,8 @@ public class Greeting {
 
         sayHelloTo(" Study Hard");
 
+        sayHelloTo("Juni junon");
+
     }
 
     // I want to create a method that do below :

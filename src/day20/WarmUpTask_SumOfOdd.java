@@ -7,9 +7,9 @@ public class WarmUpTask_SumOfOdd {
         //Give me the sum of odd numbers from 10-100
 
         int sum = 0;
-        for (int sumOfOdd = 10; sumOfOdd <=100 ; sumOfOdd++) {
-            if ( sumOfOdd % 2 == 1 ){
-                sum = sum+sumOfOdd;  //sum += sumOfOdd;
+        for (int x = 10; x <=100 ; x++) {
+            if ( x % 2 == 1 ){
+                sum = sum+x;  //sum += x;
             }
 
         }

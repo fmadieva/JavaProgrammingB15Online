@@ -4,7 +4,7 @@ public class CharacterStairCase {
     public static void main(String[] args){
 
         String line = "";
-        for (char iChar = 'A'; iChar <= 'Z' ; iChar++) {
+        for (char iChar = 'A'; iChar <= 'F' ; iChar++) {
             line += iChar;
             System.out.println(line);
         }
