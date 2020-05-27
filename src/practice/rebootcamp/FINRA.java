@@ -1,4 +1,4 @@
-package practice;
+package practice.rebootcamp;
 
 public class FINRA {
 

@@ -1,4 +1,4 @@
-package practice;
+package practice.rebootcamp;
 
 public class Palindrome {
     public static void main(String[] args) {
